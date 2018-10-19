@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84D9BFD72175C62E0056ED04 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D9BFD62175C62E0056ED04 /* AppDelegate.m */; };
+		84D9BFDA2175C62E0056ED04 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D9BFD92175C62E0056ED04 /* ViewController.m */; };
+		84D9BFDD2175C62E0056ED04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D9BFDB2175C62E0056ED04 /* Main.storyboard */; };
+		84D9BFDF2175C62F0056ED04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D9BFDE2175C62F0056ED04 /* Assets.xcassets */; };
+		84D9BFE22175C62F0056ED04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D9BFE02175C62F0056ED04 /* LaunchScreen.storyboard */; };
+		84D9BFE52175C62F0056ED04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D9BFE42175C62F0056ED04 /* main.m */; };
+		84D9BFEF2175C62F0056ED04 /* AR_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D9BFEE2175C62F0056ED04 /* AR_____Tests.m */; };
+		84D9BFFA2175C62F0056ED04 /* AR_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D9BFF92175C62F0056ED04 /* AR_____UITests.m */; };
+		84D9C00C2175CFD60056ED04 /* NodePlane.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D9C00B2175CFD60056ED04 /* NodePlane.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84D9BFEB2175C62F0056ED04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84D9BFCA2175C62E0056ED04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84D9BFD12175C62E0056ED04;
+			remoteInfo = "AR-平面检测";
+		};
+		84D9BFF62175C62F0056ED04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84D9BFCA2175C62E0056ED04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84D9BFD12175C62E0056ED04;
+			remoteInfo = "AR-平面检测";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84D9BFD22175C62E0056ED04 /* AR-平面检测.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR-平面检测.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D9BFD52175C62E0056ED04 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84D9BFD62175C62E0056ED04 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84D9BFD82175C62E0056ED04 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84D9BFD92175C62E0056ED04 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84D9BFDC2175C62E0056ED04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84D9BFDE2175C62F0056ED04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84D9BFE12175C62F0056ED04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84D9BFE32175C62F0056ED04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D9BFE42175C62F0056ED04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84D9BFEA2175C62F0056ED04 /* AR-平面检测Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AR-平面检测Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D9BFEE2175C62F0056ED04 /* AR_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AR_____Tests.m"; sourceTree = "<group>"; };
+		84D9BFF02175C62F0056ED04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D9BFF52175C62F0056ED04 /* AR-平面检测UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AR-平面检测UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D9BFF92175C62F0056ED04 /* AR_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AR_____UITests.m"; sourceTree = "<group>"; };
+		84D9BFFB2175C62F0056ED04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D9C00A2175CFD60056ED04 /* NodePlane.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NodePlane.h; sourceTree = "<group>"; };
+		84D9C00B2175CFD60056ED04 /* NodePlane.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NodePlane.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84D9BFCF2175C62E0056ED04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D9BFE72175C62F0056ED04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D9BFF22175C62F0056ED04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84D9BFC92175C62E0056ED04 = {
+			isa = PBXGroup;
+			children = (
+				84D9BFD42175C62E0056ED04 /* AR-平面检测 */,
+				84D9BFED2175C62F0056ED04 /* AR-平面检测Tests */,
+				84D9BFF82175C62F0056ED04 /* AR-平面检测UITests */,
+				84D9BFD32175C62E0056ED04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84D9BFD32175C62E0056ED04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84D9BFD22175C62E0056ED04 /* AR-平面检测.app */,
+				84D9BFEA2175C62F0056ED04 /* AR-平面检测Tests.xctest */,
+				84D9BFF52175C62F0056ED04 /* AR-平面检测UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84D9BFD42175C62E0056ED04 /* AR-平面检测 */ = {
+			isa = PBXGroup;
+			children = (
+				84D9BFD52175C62E0056ED04 /* AppDelegate.h */,
+				84D9BFD62175C62E0056ED04 /* AppDelegate.m */,
+				84D9BFD82175C62E0056ED04 /* ViewController.h */,
+				84D9BFD92175C62E0056ED04 /* ViewController.m */,
+				84D9BFDB2175C62E0056ED04 /* Main.storyboard */,
+				84D9BFDE2175C62F0056ED04 /* Assets.xcassets */,
+				84D9BFE02175C62F0056ED04 /* LaunchScreen.storyboard */,
+				84D9BFE32175C62F0056ED04 /* Info.plist */,
+				84D9BFE42175C62F0056ED04 /* main.m */,
+				84D9C00A2175CFD60056ED04 /* NodePlane.h */,
+				84D9C00B2175CFD60056ED04 /* NodePlane.m */,
+			);
+			path = "AR-平面检测";
+			sourceTree = "<group>";
+		};
+		84D9BFED2175C62F0056ED04 /* AR-平面检测Tests */ = {
+			isa = PBXGroup;
+			children = (
+				84D9BFEE2175C62F0056ED04 /* AR_____Tests.m */,
+				84D9BFF02175C62F0056ED04 /* Info.plist */,
+			);
+			path = "AR-平面检测Tests";
+			sourceTree = "<group>";
+		};
+		84D9BFF82175C62F0056ED04 /* AR-平面检测UITests */ = {
+			isa = PBXGroup;
+			children = (
+				84D9BFF92175C62F0056ED04 /* AR_____UITests.m */,
+				84D9BFFB2175C62F0056ED04 /* Info.plist */,
+			);
+			path = "AR-平面检测UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84D9BFD12175C62E0056ED04 /* AR-平面检测 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D9BFFE2175C62F0056ED04 /* Build configuration list for PBXNativeTarget "AR-平面检测" */;
+			buildPhases = (
+				84D9BFCE2175C62E0056ED04 /* Sources */,
+				84D9BFCF2175C62E0056ED04 /* Frameworks */,
+				84D9BFD02175C62E0056ED04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AR-平面检测";
+			productName = "AR-平面检测";
+			productReference = 84D9BFD22175C62E0056ED04 /* AR-平面检测.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84D9BFE92175C62F0056ED04 /* AR-平面检测Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D9C0012175C62F0056ED04 /* Build configuration list for PBXNativeTarget "AR-平面检测Tests" */;
+			buildPhases = (
+				84D9BFE62175C62F0056ED04 /* Sources */,
+				84D9BFE72175C62F0056ED04 /* Frameworks */,
+				84D9BFE82175C62F0056ED04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84D9BFEC2175C62F0056ED04 /* PBXTargetDependency */,
+			);
+			name = "AR-平面检测Tests";
+			productName = "AR-平面检测Tests";
+			productReference = 84D9BFEA2175C62F0056ED04 /* AR-平面检测Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84D9BFF42175C62F0056ED04 /* AR-平面检测UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D9C0042175C62F0056ED04 /* Build configuration list for PBXNativeTarget "AR-平面检测UITests" */;
+			buildPhases = (
+				84D9BFF12175C62F0056ED04 /* Sources */,
+				84D9BFF22175C62F0056ED04 /* Frameworks */,
+				84D9BFF32175C62F0056ED04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84D9BFF72175C62F0056ED04 /* PBXTargetDependency */,
+			);
+			name = "AR-平面检测UITests";
+			productName = "AR-平面检测UITests";
+			productReference = 84D9BFF52175C62F0056ED04 /* AR-平面检测UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84D9BFCA2175C62E0056ED04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Admin;
+				TargetAttributes = {
+					84D9BFD12175C62E0056ED04 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					84D9BFE92175C62F0056ED04 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 84D9BFD12175C62E0056ED04;
+					};
+					84D9BFF42175C62F0056ED04 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 84D9BFD12175C62E0056ED04;
+					};
+				};
+			};
+			buildConfigurationList = 84D9BFCD2175C62E0056ED04 /* Build configuration list for PBXProject "AR-平面检测" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84D9BFC92175C62E0056ED04;
+			productRefGroup = 84D9BFD32175C62E0056ED04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84D9BFD12175C62E0056ED04 /* AR-平面检测 */,
+				84D9BFE92175C62F0056ED04 /* AR-平面检测Tests */,
+				84D9BFF42175C62F0056ED04 /* AR-平面检测UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84D9BFD02175C62E0056ED04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D9BFE22175C62F0056ED04 /* LaunchScreen.storyboard in Resources */,
+				84D9BFDF2175C62F0056ED04 /* Assets.xcassets in Resources */,
+				84D9BFDD2175C62E0056ED04 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D9BFE82175C62F0056ED04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D9BFF32175C62F0056ED04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84D9BFCE2175C62E0056ED04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D9BFDA2175C62E0056ED04 /* ViewController.m in Sources */,
+				84D9BFE52175C62F0056ED04 /* main.m in Sources */,
+				84D9C00C2175CFD60056ED04 /* NodePlane.m in Sources */,
+				84D9BFD72175C62E0056ED04 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D9BFE62175C62F0056ED04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D9BFEF2175C62F0056ED04 /* AR_____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D9BFF12175C62F0056ED04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D9BFFA2175C62F0056ED04 /* AR_____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84D9BFEC2175C62F0056ED04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84D9BFD12175C62E0056ED04 /* AR-平面检测 */;
+			targetProxy = 84D9BFEB2175C62F0056ED04 /* PBXContainerItemProxy */;
+		};
+		84D9BFF72175C62F0056ED04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84D9BFD12175C62E0056ED04 /* AR-平面检测 */;
+			targetProxy = 84D9BFF62175C62F0056ED04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84D9BFDB2175C62E0056ED04 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84D9BFDC2175C62E0056ED04 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84D9BFE02175C62F0056ED04 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84D9BFE12175C62F0056ED04 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84D9BFFC2175C62F0056ED04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84D9BFFD2175C62F0056ED04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84D9BFFF2175C62F0056ED04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DE6U78V8JU;
+				INFOPLIST_FILE = "AR-平面检测/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "huang.AR-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84D9C0002175C62F0056ED04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DE6U78V8JU;
+				INFOPLIST_FILE = "AR-平面检测/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "huang.AR-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84D9C0022175C62F0056ED04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DE6U78V8JU;
+				INFOPLIST_FILE = "AR-平面检测Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "huang.AR-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AR-平面检测.app/AR-平面检测";
+			};
+			name = Debug;
+		};
+		84D9C0032175C62F0056ED04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DE6U78V8JU;
+				INFOPLIST_FILE = "AR-平面检测Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "huang.AR-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AR-平面检测.app/AR-平面检测";
+			};
+			name = Release;
+		};
+		84D9C0052175C62F0056ED04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DE6U78V8JU;
+				INFOPLIST_FILE = "AR-平面检测UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "huang.AR-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AR-平面检测";
+			};
+			name = Debug;
+		};
+		84D9C0062175C62F0056ED04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DE6U78V8JU;
+				INFOPLIST_FILE = "AR-平面检测UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "huang.AR-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AR-平面检测";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84D9BFCD2175C62E0056ED04 /* Build configuration list for PBXProject "AR-平面检测" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D9BFFC2175C62F0056ED04 /* Debug */,
+				84D9BFFD2175C62F0056ED04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D9BFFE2175C62F0056ED04 /* Build configuration list for PBXNativeTarget "AR-平面检测" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D9BFFF2175C62F0056ED04 /* Debug */,
+				84D9C0002175C62F0056ED04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D9C0012175C62F0056ED04 /* Build configuration list for PBXNativeTarget "AR-平面检测Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D9C0022175C62F0056ED04 /* Debug */,
+				84D9C0032175C62F0056ED04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D9C0042175C62F0056ED04 /* Build configuration list for PBXNativeTarget "AR-平面检测UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D9C0052175C62F0056ED04 /* Debug */,
+				84D9C0062175C62F0056ED04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84D9BFCA2175C62E0056ED04 /* Project object */;
+}
